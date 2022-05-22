@@ -1,0 +1,41 @@
+.main-container {
+    display: flex;
+}
+
+img{
+    height: 300px;
+    width: 200px;
+    margin: 75px;
+
+
+}
+
+.about-me{
+    margin: 100px;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+body {
+    background: rgb(237, 247, 255);
+    border: 1px dotted black;
+    border-radius: 10px;
+}
+
+p{
+    text-align: center;
+}
+
+@media (max-width:606px) {
+    .main-container{
+        flex-direction: column;
+    }
+
+    img{
+        margin-top: 75px;
+        margin-left: 90px;
+    }
+}

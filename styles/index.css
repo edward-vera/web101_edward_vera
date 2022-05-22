@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+.upper-half { 
+    background-color: aqua;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lower-half {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.item {
+    text-align: center;
+    margin: 0 10px;
+    width: 200px;
+}
+
+.blue {
+    border-top: 25px solid rgb(0, 0, 255);
+}
+
+.orange {
+    border-top: 25px solid rgb(255, 60, 0);
+}
+
+.turquoise {
+    border-top: 25px solid aqua;
+}
+
+/* Phone sizes and up */
+@media (max-width: 576px) {
+    .upper-half{
+        background-color: lightskyblue;
+        height: 300px;
+    }
+
+    .lower-half{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
