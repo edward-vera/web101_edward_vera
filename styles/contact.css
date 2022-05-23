@@ -1,0 +1,46 @@
+body{
+    background-color: tan;
+    border: 1px dotted black;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+button {
+    justify-content: center;
+}
+
+.email {
+    flex-direction: column;
+}
+
+.comments {
+    flex-direction: column;
+}
+
+/*for tablet size */
+@media (max-width:768px) {
+    body {
+        background-color: rgb(203, 203, 255);
+    }
+
+    .box-container{
+        flex-direction: column;
+    }
+
+}
+
+
+/* for phone size */
+@media (max-width: 390px) {
+    body {
+        background-color: rgb(255, 198, 198);
+    }
+
+    .box-container{
+        flex-direction: column;
+    }
+}
